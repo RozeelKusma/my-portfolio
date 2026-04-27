@@ -30,12 +30,12 @@ A modern, dark-themed developer portfolio built with **Next.js 14**, **TypeScrip
 
 ## 🧱 Tech Stack
 
-| Category  | Tech                   |
-| --------- | ---------------------- |
-| Framework | Next.js 14             |
-| Language  | TypeScript             |
-| Styling   | Tailwind CSS           |
-| Fonts     | Syne, DM Sans, DM Mono |
+| Category  | Tech             |
+| --------- | ---------------- |
+| Framework | Next.js 14       |
+| Language  | TypeScript       |
+| Styling   | Tailwind CSS     |
+| Fonts     | DM Sans, DM Mono |
 
 ---
 
