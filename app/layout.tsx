@@ -13,6 +13,11 @@ export const metadata: Metadata = {
       "Frontend Developer specializing in React, TypeScript, and cloud-based deployments.",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

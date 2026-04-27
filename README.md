@@ -1,46 +1,173 @@
-# Rojil Kusma — Portfolio
+# 🌑 Rojil Kusma — Portfolio
 
-A clean, dark-themed portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+A modern, dark-themed developer portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS** — focused on clean design, smooth animations, and strong visual hierarchy.
 
-## Design
+---
 
-- **Dark theme** with acid-yellow (`#E8FF47`) accents
-- **Syne** display font paired with **DM Sans** body and **DM Mono** for code/labels
-- Animated hero with stat cards, skill marquee ticker, alternating timeline experience layout
-- Project cards with hover glow effects
-- Fully responsive (mobile-first)
+## 🔗 Live Demo
 
-## Sections
+👉 https://rojil-kusma.vercel.app/
 
-1. **Hero** — Name, tagline, summary, stats card, and social links
-2. **Skills Marquee** — Animated scrolling tech ticker
-3. **Experience** — Alternating timeline with company details and highlights
-4. **Projects** — 2-column grid: GUMP, VoIP App, Cargo Tracker, Versify
-5. **Skills** — Categorized skill grid (Frontend, State, Backend, Cloud, Tools)
-6. **Contact** — Big CTA + contact info + education + footer
+---
 
-## Getting Started
+## 🖼️ Preview
+
+<!-- Add a screenshot or GIF here -->
+
+![Portfolio Preview](./public/preview.png)
+
+---
+
+## ✨ Highlights
+
+- 🎯 Clean, minimal UI with strong typography
+- 🎨 Dark theme with **Soft Violet accents (#A78BFA)**
+- ⚡ Smooth scroll-based reveal animations
+- 🧠 Thoughtful layout (timeline, grids, marquee)
+- 📱 Fully responsive (mobile-first)
+
+---
+
+## 🧱 Tech Stack
+
+| Category  | Tech                   |
+| --------- | ---------------------- |
+| Framework | Next.js 14             |
+| Language  | TypeScript             |
+| Styling   | Tailwind CSS           |
+| Fonts     | Syne, DM Sans, DM Mono |
+
+---
+
+## 📦 Sections Overview
+
+### 🏠 Hero
+
+- Name, tagline, summary
+- Stats card + social links
+
+### ⚙️ Skills Marquee
+
+- Animated scrolling tech ticker
+
+### 💼 Experience
+
+- Alternating timeline layout
+- Highlights + company details
+
+### 🚀 Projects
+
+- 2-column responsive grid
+- Hover glow effects
+- Includes:
+  - GUMP
+  - VoIP App
+  - Cargo Tracker
+  - Versify
+
+### 🧠 Skills
+
+- Categorized grid:
+  - Frontend
+  - State Management
+  - Backend
+  - Cloud
+  - Tools
+
+### 📬 Contact
+
+- CTA section
+- Contact info + education
+- Footer
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open http://localhost:3000
 
-## Customization
+---
 
-All content lives in **`app/data.ts`** — edit your name, experience, projects, skills, and contact info there.
+## ⚙️ Customization
 
-Colors are in **`tailwind.config.ts`** under `theme.extend.colors`.
+All editable content lives in:
 
-## Build
+```
+app/data.ts
+```
+
+Update:
+
+- Personal info
+- Experience
+- Projects
+- Skills
+- Contact details
+
+---
+
+## 🎨 Theme Customization
+
+Colors are defined in:
+
+```
+tailwind.config.ts
+```
+
+Example:
+
+```ts
+colors: {
+  ink: "#0A0A0F",
+  paper: "#F4F1EA",
+  accent: "#A78BFA",
+  muted: "#9A9AA6",
+  border: "#1C1C26",
+  card: "#12121A",
+}
+```
+
+---
+
+## 🏗️ Build & Production
 
 ```bash
-npm run build
-npm start
+pnpm build
+pnpm start
 ```
 
-## Deploy
+---
 
-Works out of the box on **Vercel** — just push to GitHub and connect the repo.
+## ☁️ Deployment
+
+Deploy instantly with **Vercel**:
+
+1. Push to GitHub
+2. Import project in Vercel
+3. Done ✅
+
+---
+
+## 📌 Notes
+
+- Optimized for performance and readability
+- Designed as a personal branding tool
+- Easy to extend with blog or CMS
+
+---
+
+## 🧑‍💻 Author
+
+**Rojil Kusma**
+Frontend Developer
+
+---
+
+## 📄 License
+
+MIT
